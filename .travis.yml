@@ -1,0 +1,17 @@
+sudo: required
+
+
+services:
+- docker
+
+before_install:
+- VERSION=test
+
+script:
+- docker build -t wisecloud/wise2c-ui-base:$VERSION .
+
+deploy:
+  provider: script
+  script: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD && docker push wisecloud/wise2c-ui-base:$VERSION
+  on:
+    all_branches: true
