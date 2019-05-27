@@ -5,7 +5,7 @@ services:
 - docker
 
 before_install:
-- VERSION=test
+- VERSION=v1.6.4-cmft
 
 script:
 - docker build -t wisecloud/wise2c-ui-base:$VERSION .
