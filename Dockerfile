@@ -1,4 +1,4 @@
-FROM node:6.9.1
+FROM node:8.11.1
 
 RUN mkdir /code
 ADD package.json /code
