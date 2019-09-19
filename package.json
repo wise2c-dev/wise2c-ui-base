@@ -14,6 +14,7 @@
   "dependencies": {
     "@antv/data-set": "^0.8.7",
     "@antv/g2": "^3.0.9",
+    "ane-element-ui": "^1.0.0",
     "animejs": "^1.1.3",
     "aos": "^2.0.4",
     "axios": "^0.18.0",
@@ -36,7 +37,6 @@
     "lodash": "^4.14.1",
     "moment": "^2.14.1",
     "normalize.css": "^8.0.0",
-    "nprogress": "^0.2.0",
     "pusher-js": "4.1.0",
     "ramda": "^0.21.0",
     "sockjs-client": "^1.1.1",
